@@ -19,7 +19,7 @@ array = [int(x) for x in array]
 print("\033[92m"+ "\nO algoritmo está ordenando...\n" +" \033[0m")
  
 start = time()
-output = bubbleSort(array)
+#output = bubbleSort(array)
 #output = selectionSort(array)
 #output = insertionSort(array)
 #output = mergeSort(array)
