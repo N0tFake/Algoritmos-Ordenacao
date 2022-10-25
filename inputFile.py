@@ -3,7 +3,7 @@ def getNumbers(type, tamanho):
         with open('./files/'+str(tamanho)+'/'+str(tamanho)+' - Ordenado.txt', 'r') as file:
             return file.readline().split(' ')
         ...
-    elif type == 'decrecente':
+    elif type == 'decrescente':
         with open('./files/'+str(tamanho)+'/'+str(tamanho)+' - Decrescente.txt', 'r') as file:
             return file.readline().split(' ')
         ...

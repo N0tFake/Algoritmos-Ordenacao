@@ -1,28 +1,31 @@
 import os
-from time import time
+from time import sleep, time
 
-from numpy import outer
+from Algoritmos.bogoSort import bogoSort
 from Algoritmos.bubbleSort import bubbleSort
+from Algoritmos.countingSort import countingSort
 from Algoritmos.mergeSort import mergeSort
 from Algoritmos.quickSort import quickSort
 from Algoritmos.selectionSort import selectionSort
 from Algoritmos.insertionSort import insertionSort
-#from Algoritmos import bubbleSort, selectionSort
+
 import inputFile
 
-
-tamanho = 100
-array = inputFile.getNumbers('aleatorio', tamanho)
+tamanho = 1000000
+ordem = 'aleatorio'
+array = inputFile.getNumbers(ordem, tamanho)
 array = [int(x) for x in array]
 
 print("\033[92m"+ "\nO algoritmo está ordenando...\n" +" \033[0m")
  
 start = time()
-#output = bubbleSort(array)
+output = bubbleSort(array)
 #output = selectionSort(array)
 #output = insertionSort(array)
 #output = mergeSort(array)
-output = quickSort(array)
+#output = quickSort(array)
+#output = bogoSort(array)
+#output = countingSort(array)
 end = time()
 
 timeExec = end - start
@@ -36,10 +39,11 @@ if not os.path.exists(localPath + '/Results/'):
 # output[1] = numero de comparações
 # array[2] = numero de trocas
 print(f'Resultados da ordenação de array com {tamanho} elementos')
-print(f'\nTempo de execulção: {timeExec}')
+print(f'Os elementos estavam em ordem: {ordem}')
+print(f'\nTempo de execulção: {timeExec} segundos')
 print(f'\nNumero de comparações: {output[1]}')
 print(f'\nNumero de Trocas: {output[2]}')
-print(output[0])
+#print(output[0])
 
 #print('\n\n\nGerando arquivo com resultados . . .')
 
