@@ -1,6 +1,8 @@
 import numpy as np
 
 def countingSort(array):
+    comp, trocas = 0, 0
+
     max = np.max(array) + 1
     count = [0] * max
 
@@ -17,6 +19,8 @@ def countingSort(array):
         count[elem] -= 1
         newPosition = count[elem]
         outputArray[newPosition] = elem
+        comp += 1
+        trocas += 1
         i -= 1
     
-    return [outputArray, ' ', ' ']
+    return [outputArray, comp, trocas]

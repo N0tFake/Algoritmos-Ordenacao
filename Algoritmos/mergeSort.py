@@ -1,6 +1,5 @@
 from numpy import arange
 
-
 def mergeSort(array):
     trocas, comp = 0, 0
     if len(array) > 1:

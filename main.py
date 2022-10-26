@@ -3,7 +3,9 @@ from time import sleep, time
 
 from Algoritmos.bogoSort import bogoSort
 from Algoritmos.bubbleSort import bubbleSort
+from Algoritmos.bucketSort import bucketSort
 from Algoritmos.countingSort import countingSort
+from Algoritmos.heapSort import heapSort
 from Algoritmos.mergeSort import mergeSort
 from Algoritmos.quickSort import quickSort
 from Algoritmos.selectionSort import selectionSort
@@ -11,13 +13,15 @@ from Algoritmos.insertionSort import insertionSort
 
 import inputFile
 
-tamanho = 1000000
+tamanho = 100
 ordem = 'aleatorio'
 array = inputFile.getNumbers(ordem, tamanho)
 array = [int(x) for x in array]
 
 print("\033[92m"+ "\nO algoritmo está ordenando...\n" +" \033[0m")
  
+output = [array, 'Nenhum algoritmo selecionado', 'Nenhum algoritmo selecionado']
+
 start = time()
 #output = bubbleSort(array)
 #output = selectionSort(array)
@@ -26,6 +30,8 @@ start = time()
 #output = quickSort(array)
 #output = bogoSort(array)
 #output = countingSort(array)
+#output = bucketSort(array)
+#output = heapSort(array)
 end = time()
 
 timeExec = end - start
