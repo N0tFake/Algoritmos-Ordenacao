@@ -3,7 +3,7 @@ Algoritmos de ordenação
 
 **Alunos**: Jhonata Batista, Marcos Antonio, Placido Aquino, Tatiane Shibata, Silvio Otavio.
 
-> O relatório está na pasta relatório
+> O relatório está com o nome retatorio.pdf
 
 ## Guia de uso
 
