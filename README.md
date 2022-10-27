@@ -3,6 +3,7 @@ Algoritmos de ordenação
 
 **Alunos**: Jhonata Batista, Marcos Antonio, Placido Aquino, Tatiane Shibata, Silvio Otavio.
 
+> O relatório está na pasta relatório
 
 ## Guia de uso
 
@@ -15,6 +16,8 @@ Algoritmos de ordenação
 3. Descomenta o algoritmo que deseja usar, por exemplo, caso queira usar o bubbleSort descomentar a linha 22. Os algoritmos estão presentes entre `start = time()` e `end = time()`. Obs: Deixar apenas um algoritmo descomentado por vez. 
  
 4. Use `python3 main.py`, para execultar o programa.
+
+5. É necessario ter uma pasta que contenha os arquivos com os arrays.
 
 ## Coleta da informação
 
