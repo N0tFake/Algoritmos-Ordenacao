@@ -1,4 +1,0 @@
-Resultados da ordenação de array com 100 elementos
-Tempo de execulção: 0.0010302066802978516
-Numero de comparações: 4950
-Numero de Trocas: 2436
