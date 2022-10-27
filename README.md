@@ -3,7 +3,7 @@ Algoritmos de ordenação
 
 **Alunos**: Jhonata Batista, Marcos Antonio, Placido Aquino, Tatiane Shibata, Silvio Otavio.
 
-> O relatório está com o nome retatorio.pdf
+* O relatório está com o nome: `[PAA] Relatorio - Algoritmos de ordenação.pdf`
 
 ## Guia de uso
 
