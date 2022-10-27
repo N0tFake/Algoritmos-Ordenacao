@@ -1,6 +1,9 @@
 # Projeto e Analise de Algoritmos
 Algoritmos de ordenação 
 
+**Alunos**: Jhonata Batista, Marcos Antonio, Placido Aquino, Tatiane Shibata, Silvio Otavio.
+
+
 ## Guia de uso
 
 1. Abra a `main.py`, é nela que você irá execultar.
